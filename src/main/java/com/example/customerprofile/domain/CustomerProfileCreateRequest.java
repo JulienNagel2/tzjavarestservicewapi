@@ -15,6 +15,7 @@ public class CustomerProfileCreateRequest {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        System.out.println("*** In CustomerProfileCreateRequest. email: " + email);
     }
 
     public String getFirstName() {
